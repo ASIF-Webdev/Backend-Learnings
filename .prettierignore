@@ -1,0 +1,47 @@
+# Ignore artifacts:
+build
+coverage
+dist
+node_modules
+
+# Ignore configuration files:
+*.config.js
+*.config.cjs
+*.config.mjs
+*.config.json
+
+# Ignore log files:
+*.log
+
+# Ignore package files:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files:
+.env
+.env.*
+
+# Ignore IDE and editor files:
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files:
+.DS_Store
+Thumbs.db
+
+# Ignore specific file patterns:
+*.min.js
+*.bundle.js
+*.map
+
+# Ignore test coverage files:
+coverage
+.nyc_output
+
+# Ignore public/static files:
+public
+static
+assets
